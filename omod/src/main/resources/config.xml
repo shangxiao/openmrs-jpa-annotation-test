@@ -28,9 +28,11 @@
 	
 	<!-- Maps hibernate file's, if present -->
 	<mappingFiles></mappingFiles>
-	<packagesToScan>
+	
+	<!-- Packages that will be scanned for JPA annotations -->
+	<packagesWithMappedClasses>
 	  org.openmrs.module.jpaannotationtest
-	</packagesToScan>
+	</packagesWithMappedClasses>
 
 	<!-- Internationalization -->
 	<!-- All message codes should start with ${project.parent.artifactId}. -->
